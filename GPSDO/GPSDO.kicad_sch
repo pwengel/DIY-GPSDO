@@ -6515,6 +6515,12 @@
 		(uuid "52bfee0e-8a82-4955-8239-38304168ae55")
 	)
 	(junction
+		(at 55.88 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53f0ee6e-058e-4419-98ff-2b58cabba2c3")
+	)
+	(junction
 		(at 302.26 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6735,6 +6741,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf320b63-60c8-4b30-a062-639c18d007fd")
+	)
+	(junction
+		(at 137.16 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfebb776-9264-4d42-880f-c48d35f5fcdb")
 	)
 	(junction
 		(at 45.72 93.98)
@@ -7534,6 +7546,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 203.2) (xy 139.7 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8ba2d3-1a3d-491c-9069-2b6da2b78633")
+	)
+	(wire
+		(pts
 			(xy 275.59 64.77) (xy 279.4 64.77)
 		)
 		(stroke
@@ -7944,6 +7966,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 90.17) (xy 55.88 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6675cb84-d8c4-4bfc-a5af-3f8d2753a887")
+	)
+	(wire
+		(pts
 			(xy 335.28 137.16) (xy 335.28 156.21)
 		)
 		(stroke
@@ -8111,6 +8143,16 @@
 			(type default)
 		)
 		(uuid "74adfade-a5e7-4509-a35f-222b7751d0c8")
+	)
+	(wire
+		(pts
+			(xy 55.88 165.1) (xy 55.88 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d05131-7308-4d42-add7-f07ee833c2f0")
 	)
 	(wire
 		(pts
@@ -8411,6 +8453,16 @@
 			(type default)
 		)
 		(uuid "91d7556e-209b-4385-b29d-931330c61f91")
+	)
+	(wire
+		(pts
+			(xy 55.88 165.1) (xy 55.88 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93261954-8a31-484f-a081-3efbe42b8408")
 	)
 	(wire
 		(pts
@@ -8944,6 +8996,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 203.2) (xy 137.16 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce828141-9238-4486-8492-efac8da59618")
+	)
+	(wire
+		(pts
 			(xy 341.63 137.16) (xy 335.28 137.16)
 		)
 		(stroke
@@ -9221,16 +9283,6 @@
 			(type default)
 		)
 		(uuid "ed9be4e1-9ef0-4935-a897-1ffadf5c9d6a")
-	)
-	(wire
-		(pts
-			(xy 55.88 185.42) (xy 55.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eda86405-af32-4604-890b-cbc13b5ecf13")
 	)
 	(wire
 		(pts
@@ -10090,7 +10142,7 @@
 	)
 	(hierarchical_label "comp"
 		(shape input)
-		(at 101.6 203.2 0)
+		(at 147.32 203.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12393,6 +12445,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 55.88 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27af594a-6e62-437b-af95-0ba08c3a8fb0")
+		(property "Reference" "R47"
+			(at 54.356 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27k"
+			(at 54.356 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 57.658 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99e8bcfe-6692-42fd-be2d-8b6c72925e23")
+		)
+		(pin "2"
+			(uuid "789b0662-52de-40c3-8d3b-108328e6a1c5")
+		)
+		(instances
+			(project "GPSDO"
+				(path "/f4b82455-72f3-43eb-9e75-b7b9cf536f92"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 66.04 205.74 270)
 		(unit 1)
@@ -13898,6 +14019,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 59.69 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3be9642c-6f3f-46df-b7af-cd0e222d4941")
+		(property "Reference" "R46"
+			(at 58.42 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 60.96 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 59.69 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9594cc1f-df0d-4514-8311-e649f9bd23f9")
+		)
+		(pin "2"
+			(uuid "f808821c-fbdf-4160-abec-77d865d2a694")
+		)
+		(instances
+			(project "GPSDO"
+				(path "/f4b82455-72f3-43eb-9e75-b7b9cf536f92"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC14")
 		(at 331.47 234.95 0)
 		(unit 7)
@@ -14410,6 +14600,75 @@
 			(project "GPSDO"
 				(path "/f4b82455-72f3-43eb-9e75-b7b9cf536f92"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42d2714d-6da9-4add-aa10-41e0f4c58b48")
+		(property "Reference" "R44"
+			(at 142.24 201.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27k"
+			(at 144.78 201.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 143.51 204.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af143dd6-5b46-43d6-b8a6-4dfffa25ec7e")
+		)
+		(pin "2"
+			(uuid "3ac8093b-4539-4a5c-9159-730a3fbdc5be")
+		)
+		(instances
+			(project "GPSDO"
+				(path "/f4b82455-72f3-43eb-9e75-b7b9cf536f92"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -15318,6 +15577,75 @@
 			(project "GPSDO"
 				(path "/f4b82455-72f3-43eb-9e75-b7b9cf536f92"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50340acb-cbb3-4442-b62a-58d38e9b714b")
+		(property "Reference" "R45"
+			(at 138.684 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 138.684 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.382 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76973ce5-57bb-4d5b-b0ce-b09ebb2a09de")
+		)
+		(pin "2"
+			(uuid "003f94c2-bf8c-4da1-9288-74ae61769e9e")
+		)
+		(instances
+			(project "GPSDO"
+				(path "/f4b82455-72f3-43eb-9e75-b7b9cf536f92"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -22379,6 +22707,74 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 137.16 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6cff416-a9c4-416b-b6aa-ff80275baf59")
+		(property "Reference" "#PWR056"
+			(at 137.16 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.1599 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93639320-9bbb-4456-b751-5402c434e36b")
+		)
+		(instances
+			(project "GPSDO"
+				(path "/f4b82455-72f3-43eb-9e75-b7b9cf536f92"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 349.25 220.98 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24527,6 +24923,74 @@
 			(project "GPSDO"
 				(path "/f4b82455-72f3-43eb-9e75-b7b9cf536f92"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f71d4641-0f76-4386-8fde-39674aee4db1")
+		(property "Reference" "#PWR057"
+			(at 69.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 165.1001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d36dbb45-bc01-4a62-b1a0-810ef6600a95")
+		)
+		(instances
+			(project "GPSDO"
+				(path "/f4b82455-72f3-43eb-9e75-b7b9cf536f92"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
