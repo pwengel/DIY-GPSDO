@@ -7396,7 +7396,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 213.36) (xy 30.48 213.36)
+			(xy 41.91 210.82) (xy 30.48 210.82)
 		)
 		(stroke
 			(width 0)
@@ -7406,7 +7406,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 182.88) (xy 46.99 182.88)
+			(xy 66.04 182.88) (xy 41.91 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7516,7 +7516,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 198.12) (xy 46.99 213.36)
+			(xy 41.91 198.12) (xy 41.91 210.82)
 		)
 		(stroke
 			(width 0)
@@ -7886,7 +7886,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 182.88) (xy 46.99 190.5)
+			(xy 41.91 182.88) (xy 41.91 190.5)
 		)
 		(stroke
 			(width 0)
@@ -9584,6 +9584,16 @@
 		)
 		(uuid "283b1bb5-0491-4403-ae1c-0dfe0c601587")
 	)
+	(text "configuration +\nPPS offset msg"
+		(exclude_from_sim no)
+		(at 45.466 178.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a0edc2e-bea0-4532-bac8-0275b1f2e4e6")
+	)
 	(text "25mA\nSMD klein"
 		(exclude_from_sim no)
 		(at 335.534 219.456 0)
@@ -9616,7 +9626,7 @@
 	)
 	(text "\"Lock\" LED"
 		(exclude_from_sim no)
-		(at 23.622 218.44 0)
+		(at 23.622 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12873,7 +12883,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 215.9 0)
+		(at 30.48 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12882,7 +12892,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b8e03d5-65c9-48c9-ac65-1a4b468c775d")
 		(property "Reference" "#PWR07"
-			(at 30.48 222.25 0)
+			(at 30.48 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12891,7 +12901,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 220.98 0)
+			(at 30.48 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12900,7 +12910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 215.9 0)
+			(at 30.48 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12909,7 +12919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 215.9 0)
+			(at 30.48 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12918,7 +12928,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 215.9 0)
+			(at 30.48 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13951,7 +13961,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 194.31 0)
+		(at 41.91 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13959,7 +13969,7 @@
 		(dnp no)
 		(uuid "3b496d89-2b7e-452a-b002-95e546a55e01")
 		(property "Reference" "R5"
-			(at 48.26 193.04 0)
+			(at 43.18 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13968,7 +13978,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 48.26 195.58 0)
+			(at 43.18 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13977,7 +13987,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 45.212 194.31 90)
+			(at 40.132 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13986,7 +13996,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 194.31 0)
+			(at 41.91 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13995,7 +14005,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.99 194.31 0)
+			(at 41.91 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15722,7 +15732,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 25.4 215.9 180)
+		(at 25.4 213.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15730,7 +15740,7 @@
 		(dnp no)
 		(uuid "55b83e4e-fcc9-427b-a751-dd8122dc8e44")
 		(property "Reference" "K3"
-			(at 25.4 211.074 0)
+			(at 25.4 208.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15738,7 +15748,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 25.4 209.55 0)
+			(at 25.4 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15747,7 +15757,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 25.4 215.9 0)
+			(at 25.4 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15756,7 +15766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 215.9 0)
+			(at 25.4 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15765,7 +15775,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 25.4 215.9 0)
+			(at 25.4 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
